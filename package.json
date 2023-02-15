@@ -1,0 +1,17 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "1. 시작하기\r - 연습\r - .ts 파일 생성후 \r - tsc test.ts 실행하면 동일 선상에 같은 이름의 js 파일 생성됨",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node build/index.js",
+    "dev": "ts-node src/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
